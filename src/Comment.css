@@ -1,0 +1,19 @@
+.comment {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.comment > .avatar {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.comment > .message {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 120px);
+}
